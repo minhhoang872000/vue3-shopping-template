@@ -1,0 +1,41 @@
+title: About
+content_blocks:
+  - _block_name: section/cart
+    id: cart
+    title: Cart
+    icon_title: /images/star_title.png
+    deco: /images/deco1.png
+    giftcart: /images/giftcard.png
+    label: Apply a voucher/ gift card
+    voucher_placeholder: Vour voucher/ giftcard code
+    subtotal_label: Subtotal
+    shipping_label: Shipping
+    total_label: Total cost
+    subtotal: 100
+    shipping: 12
+    total: 112
+    plus_icon: /images/plus.svg
+    subtract_icon: /images/subtract.svg
+    button:
+      url: #
+      text: apply
+    button_checkout:
+      url: #
+      text: check out
+    cart:
+      - image: /images/menu_sell1.png
+        image_alt: Image menu sell 1
+        label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+        price: 22
+      - image: /images/menu_sell2.png
+        image_alt: Image menu sell 2
+        label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+        price: 30
+      - image: /images/menu_sell3.png
+        image_alt: Image menu sell 3
+        label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+        price: 48
+      - image: /images/menu_sell3.png
+        image_alt: Image menu sell 3
+        label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+        price: 48

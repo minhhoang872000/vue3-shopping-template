@@ -1,0 +1,23 @@
+title: Create
+content_blocks:
+  - _block_name: giftcard/create
+    id: create
+    title: Create gift card
+    icon_title: /images/star_title.png
+    images: /images/giftcard1.png
+    gift_label: Select gift amount
+    gift_placeholder: Select gift amount
+    name_label: Recipient Name
+    name_placeholder: Recipient Name
+    recipient_placeholder: Recipient Email
+    recipient_email: Recipient Email
+    message_label: Message
+    message_placeholder: Message
+    sender_label: Sender Name
+    sender_placehodler: Sender name
+    email_label: Sender Email
+    email_placeholder: Sender email
+    button:
+      url: /
+      text: Check out
+

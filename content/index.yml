@@ -1,0 +1,66 @@
+title: Home
+content_blocks:
+  - _block_name: section/hero
+    id: hero
+    bg_color_right: "#FFFAE0"
+    bg_color_left: "#AFD4C280"
+    hero_bg1: /images/hero1.png
+    hero_bg1_alt: Hero section 1
+    hero_bg2: /images/hero2.png
+    hero_bg2_alt: Hero section 2
+    hero_bg3: /images/hero3.png
+    hero_bg3_alt: /images/hero3.png
+    deco_image: /images/deco1.png
+
+  - _block_name: section/story
+    id: story
+    title: Our story
+    icon_title: /images/star_title.png
+    background: /images/story_bg.png
+    subtitle: <span>Boba Premium Tea</span> Your destination for <span> delightful tea creations </span> and <span> flavor adventures!</span>
+    content: In the heart of our lively town lies a treasure trove of taste and innovation known as Boba Premium Tea. Our story is one of dedication to the art of tea, where we combine the finest ingredients with boundless creativity. Each cup tells a unique tale, from the sweet symphony of Mango Matcha Fresh Milk to the timeless allure of Brown Sugar Boba. Beyond our beverages, our shop has become a hub of connection and inspiration, where friends meet, artists showcase their talents, and ideas are born. So come, explore, and savor the blend of passion and flavor at Boba Premium Tea—an experience that lingers long after the last sip.
+    button:
+      url: /
+      text: read more
+
+  - _block_name: section/giftcard
+    id: giftcard
+    icon_title: /images/star_title.png
+    title: Gift card new
+    subtitle: Share <span>an enchanting treat</span>
+    content: Surprise someone special with a gift that casts a spell.
+    image: /images/giftcart.png
+    bg_image: /images/giftcard_bg.png
+    deco: /images/deco2.png
+    button:
+      url: /
+      text: Send an egift
+
+  - _block_name: section/coffee
+    id: coffee
+    subtitle: New <br/> <span> The combination of cheese with coffee </span>
+    content: Indulge in a harmonious fusion of coffee's rich, bold notes and the creamy, savory delight of cheese with our exciting new coffee creations.
+    bg_image: /images/coffee_bg.png
+    deco: /images/deco1.png
+    image_coffee1: /images/coffee_img1.png
+    image_coffee1_alt: Image coffee 1
+    image_coffee2: /images/coffee_img2.png
+    image_coffee2_alt: Image coffee 2
+    button:
+      url: /
+      text: Order now
+
+  - _block_name: section/combo
+    id: combo
+    title: Combo
+    subtitle: The best<br/> <span>Price combo</span> <span>in autumn</span>
+    icon_title: /images/star_title.png
+    combo_image1: /images/combo_image1.png
+    combo_image1_alt: Combo image 1
+    combo_image2: /images/combo_image2.png
+    combo_image2_alt: Combo image 2
+    combo_image3: /images/combo_image3.png
+    combo_image3_alt: Combo image 3
+    deco1: /images/deco3.png
+    deco2: /images/deco2.png
+

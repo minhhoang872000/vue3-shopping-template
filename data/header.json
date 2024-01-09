@@ -1,0 +1,38 @@
+{
+  "logo": "/images/logo.svg",
+  "link": "/",
+  "login": [
+    {
+      "link": "/login",
+      "text": "Sign in"
+    },
+    {
+      "link": "/register",
+      "text": "Join now"
+    }
+  ],
+  "truck": "/images/truck.png",
+  "cart": "Your cart",
+  "icon_cart": "/images/cart.png",
+  "home_link": "/",
+  "nav": [
+    {
+      "link": "/about",
+      "text": "About us"
+    },
+    {
+      "link": "/menu",
+      "text": "Menu"
+    },
+    {
+      "link": "/giftcard",
+      "text": "Gift cards"
+    },
+    {
+      "link": "/store",
+      "text": "Our store"
+    }
+  ],
+  "discount": "Free shipping  on orders +$55",
+  "freeship": "subscriptions ship free & are 15% Off"
+}

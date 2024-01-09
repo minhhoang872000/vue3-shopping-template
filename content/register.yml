@@ -1,0 +1,15 @@
+register_name_label: Full name
+register_name_placeholder: Enter your full name
+register_email_label: Email
+register_email_placeholder: Enter your email
+register_password_label: Password
+register_password_placeholder: Enter your password
+register_confirm_label: Password
+register_confirm_placeholder: Enter your confirm password
+button_signup:
+  url: /login
+  link: Sign up
+background_image: /images/login.png
+deco: /images/deco2.png
+label: Sign up
+hidden: /images/hidden_password.png

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Agiary Signs';
+    src: url('AgiarySigns-Regular.eot');
+    src: url('AgiarySigns-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AgiarySigns-Regular.woff2') format('woff2'),
+        url('AgiarySigns-Regular.woff') format('woff'),
+        url('AgiarySigns-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

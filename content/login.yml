@@ -1,0 +1,19 @@
+id: login
+label: login
+background_image: /images/login.png
+deco: /images/deco2.png
+email_label: Email
+email_placeholder: Enter your email
+password_label: Password
+password_placeholder: Enter your password
+remember_label: Remember me
+forgot_label: Forgot password
+google_icon: /images/google_login.png
+arrow_login: /images/arrow_login.png
+button_signin:
+  url: /
+  link: Sign in
+hidden: /images/hidden_password.png
+button_signup:
+  url: /register
+  link: Sign up

@@ -1,0 +1,50 @@
+title: About
+content_blocks:
+  - _block_name: section/checkout
+    id: checkout
+    title: Check out
+    icon_title: /images/star_title.png
+    deco: /images/deco1.png
+    giftcart: /images/giftcard.png
+    label: Order summary
+    subtotal_label: Subtotal
+    shipping_label: Delivery fee
+    voucher_label: Aplied voucher 10%
+    total_label: Total charge
+    subtotal: 100
+    delivery_fee: 12
+    voucher: 1.12
+    total_charge: 110.88
+    term: By completing this order, I agree to all terms and condition
+    button:
+      url: /delivery
+      text: confirm order
+    order:
+      - label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+        price: 22
+      - label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+        price: 30
+      - label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+        price: 48
+      - label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+        price: 48
+    person_info: Persional infomation
+    person_icon: /images/personal.png
+    payment_info: Payment method
+    payment_icon: /images/wallet.png
+    name_label: Your Name
+    address_label: Your Address
+    phone_label: Your Phone number
+    email_label: Your Email
+    credit_label: Credit card number
+    security_label: Security code
+    expiration_label: Expriration date
+    name_placeholder: Enter Your Name
+    address_placeholder: Enter Your Address
+    phone_placeholder: Enter Your Phone number
+    email_placeholder: Enter Your Email
+    credit_placeholder: 0000-0000-0000-0000
+    security_placeholder: '***'
+    expiration_placeholder: MM/YY
+    check_delivery: Cash on delivery
+

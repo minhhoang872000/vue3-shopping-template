@@ -1,0 +1,62 @@
+title: giftcard
+content_blocks:
+  - _block_name: section/giftcard
+    id: giftcard
+    icon_title: /images/star_title.png
+    title: Gift card new
+    subtitle: Share<br/> <span>an enchanting treat</span>
+    content: Surprise someone special with a gift that casts a spell.
+    image: /images/giftcart.png
+    bg_image: /images/giftcard_bg.png
+    deco: /images/deco2.png
+    button:
+      url: /
+      text: Send an egift
+
+  - _block_name: section/cardlist
+    id: giftcard
+    title: List gift cards
+    icon_title: /images/star_title.png
+    cardlist:
+      - image: /images/giftcard1.png
+        image_alt: Giftcard image 1
+      - image: /images/giftcard2.png
+        image_alt: Giftcard image 2
+      - image: /images/giftcard3.png
+        image_alt: Giftcard image 3
+      - image: /images/giftcard4.png
+        image_alt: Giftcard image 4
+      - image: /images/giftcard5.png
+        image_alt: Giftcard image 5
+      - image: /images/giftcard6.png
+        image_alt: Giftcard image 6
+
+  - _block_name: section/term
+    id: term
+    title: terms & condition
+    icon_title: /images/star_title.png
+    term:
+      - title: Redemption Period
+        subtitle: This gift voucher is valid for use from /[Start Date]/ to /[End Date]/.
+      - title: Appointment Required
+        subtitle: To redeem this voucher, recipients must schedule an appointment in advance by calling [Salon Phone Number] or booking online at [Salon Website]. Walk-in appointments may not be accommodated.
+      - title: Non-Transferable
+        subtitle: Gift vouchers are non-transferable and can only be used by the recipient whose name appears on the voucher.
+      - title: No Cash Value
+        subtitle: This voucher has no cash value and cannot be exchanged for cash or any other monetary equivalent.
+      - title: One-Time Use
+        subtitle: Each gift voucher may be used for one visit only, and any remaining balance will not be carried forward to future appointments.
+      - title: Service Limitations
+        subtitle: This voucher can be applied toward hair services and products at [Salon Name] and cannot be used for gratuities or combined with other discounts or promotions.
+      - title: Lost or Stolen Vouchers
+        subtitle: /[Salon Name]/ is not responsible for lost or stolen vouchers. Protect this voucher as you would cash.
+      - title: Expiration Date
+        subtitle: Unused vouchers will expire after the redemption period specified on the voucher. No extensions will be granted.
+      - title: Cancellation Policy
+        subtitle: If the recipient cancels an appointment with less than 24 hours' notice, the voucher may be forfeited or marked as used.
+      - title: Non-Refundable
+        subtitle: Gift vouchers are non-refundable. No refunds will be issued for partially used or unused vouchers.
+      - title: Voucher Code
+        subtitle: To redeem this voucher, recipients must provide the unique voucher code at the time of booking.
+      - title: Limitation of Liability
+        subtitle: /[Salon Name]/ shall not be liable for any lost, stolen, or damaged vouchers or any unauthorized use of vouchers.

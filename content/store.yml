@@ -1,0 +1,38 @@
+title: Store
+content_blocks:
+  - _block_name: section/store
+    id: story
+    title: Our stores
+    icon_title: /images/star_title.png
+    map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127332.2298585457!2d-122.24261134519593!3d37.597840546609454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f9e60efa95545%3A0xfd8efcf42dcc1ba7!2sSan%20Mateo%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1703663474264!5m2!1sen!2s
+    store:
+      - image: /images/story1.png
+        title: Part Row at Beekman St
+        time: 38 Park Row, New York
+        date: Open Until 8:30AM
+        button:
+          url: /menu
+          text: Order here
+      - image: /images/story2.png
+        title: Church Street & Murray
+        time: 120 Church Street, NK
+        date: Open Until 8:30AM
+        button:
+          url: /menu
+          text: Order here
+
+      - image: /images/story3.png
+        title: Nassau & Fulton
+        time: 130 FlutonStreet, NK
+        date: Open Until 8:30AM
+        button:
+          url: /menu
+          text: Order here
+
+      - image: /images/story4.png
+        title: Nassau & Fulton
+        time: 130 FlutonStreet, NK
+        date: Open Until 8:30AM
+        button:
+          url: /menu
+          text: Order here

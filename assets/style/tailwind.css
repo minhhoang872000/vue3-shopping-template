@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* .btn-style {
+    @apply py-[20px]  xl:mb-10 lg:mb-2 bg-white md:py-[20px] sm:w-[380px] md:w-[380px] md:mb-[20px] w-[380px] xl:py-[18px] lg:py-[14px] text-[#1B1464] xl:w-[190px] lg:w-[190px] uppercase text-[20px] font-roboto;
+  }
+  .text-heading {
+  } */
+}
+@layer base {
+  h2 {
+    @apply text-[96px] font-normal leading-normal tracking-[-2.88px] uppercase;
+  }
+  h3{
+    @apply text-[34px] font-normal leading-normal tracking-[-0.68px] uppercase;
+  }
+}
+@layer components {
+  .title {
+    @apply text-[96px] leading-normal tracking-[-2.88px];
+  }
+  .subtitle_blue {
+    @apply font-titan font-normal xl:text-[28px] md:text-[24px] text-[#2CD3CD] capitalize leading-[38px];
+  }
+  .sublink{
+    @apply font-sans text-[18px] py-[8px] rounded-[30px] px-[24px] uppercase font-bold text-center text-[#348D6D] inline-block border-[2px] border-[#FFE86D] bg-[#fff] shadow-xl;
+  }
+  .textstyle{
+      @apply text-[16px] font-light leading-[26px] tracking-[-0.16px] font-sans p-[24px];
+  }
+  .header__small{
+    @apply text-[60px] font-signs font-medium -tracking-[1.8px] uppercase 
+  }
+}

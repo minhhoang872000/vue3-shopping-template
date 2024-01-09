@@ -1,0 +1,46 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Beauty Section
+  description: Beauty Section
+  icon: "cottage"
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: ThanhLina
+  subtitle: Natural Beauty Spa
+  content: If you are seeking a nail salon that helps you to rejuvenate your beauty, Special Nails & Spa is the ideal destination! Located conveniently in Houston, TX 77042, our nail salon is proud to deliver the highest quality treatments to our customers.
+  button:
+    url: /
+    title: View more
+  image_left: /images/home/detail.png
+  image_right: /images/home/detail_girl.png
+
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  title:
+    type: text
+    label: Beauty title
+  subtitle: 
+    type: text
+    title: Beauty subtitle
+  content: Content of Section
+    type: text
+    label: Beauty content
+  button.url:
+    type: text
+    label: Button link
+  button.text: 
+    type: text
+    label: Button text
+  image_left:
+    type: image
+    label: Image left 
+  image_right:
+    type: image
+    label: Image right

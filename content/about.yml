@@ -1,0 +1,54 @@
+title: About
+content_blocks:
+  - _block_name: section/story
+    id: story
+    title: Our story
+    icon_title: /images/star_title.png
+    background: /images/story_bg.png
+    subtitle: <span>Boba Premium Tea</span> Your destination for <span> delightful tea creations </span> and <span> flavor adventures!</span>
+    content: In the heart of our lively town lies a treasure trove of taste and innovation known as Boba Premium Tea. Our story is one of dedication to the art of tea, where we combine the finest ingredients with boundless creativity. Each cup tells a unique tale, from the sweet symphony of Mango Matcha Fresh Milk to the timeless allure of Brown Sugar Boba. Beyond our beverages, our shop has become a hub of connection and inspiration, where friends meet, artists showcase their talents, and ideas are born. So come, explore, and savor the blend of passion and flavor at Boba Premium Tea—an experience that lingers long after the last sip.
+    button:
+      url: /
+      text: read more
+
+  - _block_name: about/telling
+    id: telling
+    deco: /images/deco1.png
+    content: Once upon a time, in the heart of a bustling town, there stood a grand shop known far and wide as "Boba Premium Tea." It was more than just a tea shop; it was a place where dreams brewed, and flavors danced.</br></br>
+            The shop's journey began with a visionary named Boba, who had a deep love for tea and an unwavering commitment to quality. Boba embarked on a quest to source the finest tea leaves, cultivate unique blends, and craft extraordinary drinks. With each creation, Boba aimed to transport customers to distant lands, evoke childhood memories, or simply offer a moment of pure joy.</br></br>
+            Boba's entrance was adorned with vibrant colors, inviting aromas, and a warm ambiance that beckoned travelers from near and far. Inside, tea enthusiasts, friends, and families gathered to explore an extensive menu of tantalizing concoctions. The air buzzed with excitement as baristas masterfully prepared beverages, transforming simple ingredients into liquid works of art.</br></br>
+            One of the most enchanting tales that unfolded within the shop was the legend of the "Mango Matcha Fresh Milk." This fusion of ripe mangoes and delicate matcha became an instant classic, spreading its fame across the land and winning the hearts of all who tasted it.</br>
+            But the shop was more than just drinks; it was a community. Local artists showcased their talents on the walls, creating a gallery of inspiration. Students gathered to study, entrepreneurs brainstormed, and friends reunited over cups of creativity. Boba Premium Tea became a cherished hub of connection and shared experiences.</br>
+            As the years passed, the shop's legacy continued to grow. Boba's dedication to innovation led to the discovery of new flavors and the creation of seasonal sensations that kept customers eagerly awaiting each visit.</br></br>
+            In the end, Boba Premium Tea was not just a shop; it was a haven of flavors, memories, and dreams. It was a place where the passion for tea met the creativity of its patrons, where every cup was an invitation to explore, to connect, and to savor the magic of life.</br>
+            And so, the story of Boba Premium Tea lived on, one cup at a time, in the hearts and memories of all who passed through its doors, forever cherishing the enchanting world of flavors it had brought to life.
+
+  - _block_name: about/review
+    id: review
+    title: customer said
+    icon_title: /images/star_title.png
+    review:
+      - image: /images/customer1.png
+        image_alt: Customer 1 
+        content: Boba is my go-to place for delicious tea! Their Mango Matcha Fresh Milk is an absolute delight, and the cozy ambiance makes it the perfect spot for catching up with friends.
+        author: Nicole Perez
+      - image: /images/customer2.png
+        image_alt: Customer 2
+        content: Boba is my go-to place for delicious tea! Their Mango Matcha Fresh Milk is an absolute delight, and the cozy ambiance makes it the perfect spot for catching up with friends.
+        author: Laura Wilson
+      - image: /images/customer3.png
+        image_alt: Customer 3 
+        content: Boba is my go-to place for delicious tea! Their Mango Matcha Fresh Milk is an absolute delight, and the cozy ambiance makes it the perfect spot for catching up with friends.
+        author: Shirely Davis
+      - image: /images/customer4.png
+        image_alt: Customer 4 
+        content: Boba is my go-to place for delicious tea! Their Mango Matcha Fresh Milk is an absolute delight, and the cozy ambiance makes it the perfect spot for catching up with friends.
+        author: Laura Jackson
+      - image: /images/customer5.png
+        image_alt: Customer 5 
+        content: Boba is my go-to place for delicious tea! Their Mango Matcha Fresh Milk is an absolute delight, and the cozy ambiance makes it the perfect spot for catching up with friends.
+        author: Laura Davis
+      - image: /images/customer6.png
+        image_alt: Customer 6 
+        content: Boba is my go-to place for delicious tea! Their Mango Matcha Fresh Milk is an absolute delight, and the cozy ambiance makes it the perfect spot for catching up with friends.
+        author: Angela Gray

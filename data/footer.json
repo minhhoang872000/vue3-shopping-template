@@ -1,0 +1,55 @@
+{
+  "background": "/images/contact_bg.png ",
+  "label": "hours & location <span>(Office)</span>",
+  "star": "/images/star_title.png",
+  "address": {
+    "label": "11011 Richmond Ave, Ste 900, Houston, TX 77042",
+    "icon": "/images/location.png"
+  },
+  "phone": {
+    "label": "832-968-6668",
+    "icon": "/images/phone.png"
+  },
+  "time": {
+    "label": "Moday - Sunday</br>8:00 am - 10:00pm",
+    "icon": "/images/clock.png"
+  },
+  "follow": {
+    "label": "Follow us",
+    "deco": "/images/star_title.png",
+    "social": [
+      {
+        "icon": "/images/facebook.png",
+        "icon_alt": "Icon contact 1",
+        "link": "https://facebook.com/"
+      },
+      {
+        "icon": "/images/insta.png",
+        "icon_alt": "Icon contact 2",
+        "link": "https://instagram.com/"
+      },
+      {
+        "icon": "/images/youtube.png",
+        "icon_alt": "Icon contact 3",
+        "link": "https://youtube.com/"
+      },
+      {
+        "icon": "/images/google.png",
+        "icon_alt": "Icon contact 4",
+        "link": "https://google.com/"
+      }]
+  },
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50607.00508093052!2d-122.35682952911421!3d37.55652879230194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f9e60efa95545%3A0xfd8efcf42dcc1ba7!2sSan%20Mateo%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1703581412918!5m2!1sen!2s",
+  "term": {
+    "service": "Terms of Service      |      Privacy Policy      |      Return & Refund Policy",
+    "design": "Designed by Fastboy Marketing"
+  },
+  "_inputs": {
+    "label": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "image"
+    }
+  }
+}

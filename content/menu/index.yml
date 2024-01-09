@@ -1,0 +1,99 @@
+title: Menu
+content_blocks:
+  - _block_name: menu/banner
+    id: menu
+    title: BUY 1 GET 1
+    time: Only Oct 30, 2023 
+    subtitle: <span>Peach</span> & black tea
+    price: $8
+    menu_icon1: /images/menu_icon1.png
+    menu_icon2: /images/menu_icon2.png
+    menu_image: /images/deco1.png
+    background: /images/menu_bg.png
+
+  - _block_name: section/style
+    id: style
+    title: menu
+    subtitle: Select style of menu
+    background: /images/bg_menulist.png
+    deco: /images/star_title.png
+    menu:
+      - image: /images/menu_select1.svg
+        image_alt: Image menu select 1
+        cate: coffee
+        label: Coffee
+      - image: /images/menu_select2.svg
+        image_alt: Image menu select 2
+        cate: tea
+        label: Tea
+      - image: /images/menu_select3.svg
+        image_alt: Image menu select 3
+        cate: milktea
+        label: Bubble milk tea
+      - image: /images/menu_select4.svg
+        image_alt: Image menu select 4
+        cate: blended
+        label: Ice blended
+      - image: /images/menu_select5.svg
+        image_alt: Image menu select 5
+        cate: smoothies
+        label: Smoothies
+      - image: /images/menu_select6.svg
+        image_alt: Image menu select 6
+        cate: bakery
+        label: Bakery
+    
+  - _block_name: section/slider
+    id: slider
+    slider:
+      - image: /images/menu_item1.png
+        image_alt: Image menu slider 1
+        label: Late coffee 
+      - image: /images/menu_item2.png
+        image_alt: Image menu slider 2
+        label: Expresso
+      - image: /images/menu_item3.png
+        image_alt: Image menu slider 3
+        label: Coffee
+    button:
+      url: /
+      text: see more
+
+
+  - _block_name: section/coffee
+    id: coffee
+    subtitle: New <br/> <span> The combination of cheese with coffee </span>
+    content: Indulge in a harmonious fusion of coffee's rich, bold notes and the creamy, savory delight of cheese with our exciting new coffee creations.
+    bg_image: /images/coffee_bg.png
+    deco: /images/deco1.png
+    image_coffee1: /images/coffee_img1.png
+    image_coffee1_alt: Image coffee 1
+    image_coffee2: /images/coffee_img2.png
+    image_coffee2_alt: Image coffee 2
+    button:
+      url: /
+      text: Order now
+
+
+  - _block_name: section/show
+    id: show
+    title: New <span>The combination of cheese with coffee</span>
+    subtitle: Indulge in a harmonious fusion of coffee's rich, bold notes and the creamy, savory delight of cheese with our exciting new coffee creations.
+    button:
+      url: /
+      text: Order now
+
+
+  - _block_name: section/combo
+    id: combo
+    title: Combo
+    subtitle: The best <span>Price combo in autumn</span>
+    combo_image1: /images/combo_image1.png
+    combo_image1_alt: Combo image 1
+    combo_image2: /images/combo_image2.png
+    combo_image2_alt: Combo image 2
+    combo_image3: /images/combo_image3.png
+    combo_image3_alt: Combo image 3
+    deco1: /images/deco3.png
+    deco2: /images/deco2.png
+

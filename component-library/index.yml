@@ -1,0 +1,76 @@
+paths:
+  collections: content
+  data: data
+  static: public
+  uploads: public/images
+collections_config:
+  data:
+    path: data/
+    disable_add: true
+    disable_add_folder: true
+  pages:
+    path: content
+    glob:
+      - content/*.md
+    url: '/[slug]'
+    output: true
+    icon: wysiwyg
+    _enabled_editors:
+      - visual
+    schemas:
+      page:
+        name: New Page
+        path: schemas/page.md
+  blog:
+    path: content/blog/
+    output: true
+    url: '/blog/[slug]'
+    _enabled_editors:
+      - content
+      - visual
+    schemas:
+      blog_post:
+        name: New Blog Post
+        path: schemas/post.md
+        hide_extra_inputs: false
+        remove_extra_inputs: false
+_inputs:
+  _path:
+    type: text
+    label: Page path
+    description:
+  title:
+    type: text
+    label: Page title
+    description:
+  description:
+    type: text
+    label: Page description
+    description:
+  layout:
+    type: text
+    label: Page layout
+    description:
+  seo.title:
+    type: text
+    label: Seo title
+    description:
+  seo.description:
+    type: text
+    label: Seo description
+    description:
+  seo.url:
+    type: text
+    label: Seo url
+    description:
+  seo.image:
+    type: text
+    label: Seo image
+    description:
+  seo.no_index:
+    type: checkbox
+    label: Seo no index
+    description:
+  content_blocks:
+    label: Content blocks
+    description:

@@ -1,0 +1,77 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Service Section
+  description: Service Section
+  icon: "cottage"
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: OUR SERVICE
+  content: Professional Nail Care for Ladies and Gentleman
+  service:
+    - image: /images/home/service1.png
+      title: MANICURE
+      hover: Quick view
+      icon: /images/home/hand_cursor.svg
+
+    - image: /images/home/service2.png
+      title: SOLAR NAILS
+      hover: Quick view
+      icon: /images/home/hand_cursor.svg
+
+    - image: /images/home/service3.png
+      title: PEDICURE
+      hover: Quick view
+      icon: /images/home/hand_cursor.svg
+
+    - image: /images/home/service4.png
+      title: GEL POLISH
+      hover: Quick view
+      icon: /images/home/hand_cursor.svg
+
+    - image: /images/home/service5.png
+      title: DIPPING POWDER
+      hover: Quick view
+      icon: /images/home/hand_cursor.svg
+
+    - image: /images/home/service6.png
+      title: Additional
+      hover: Quick view
+      icon: /images/home/hand_cursor.svg
+
+    - image: /images/home/service7.png
+      title: KID MENU
+      hover: Quick view
+      icon: /images/home/hand_cursor.svg
+
+    - image: /images/home/service8.png
+      title: WAXING
+      hover: Quick view
+      icon: /images/home/hand_cursor.svg
+  quote: '“ A woman is helpless only while her nail polish is drying ”'
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  title: 
+    type: text
+    label: Title section
+  content: 
+    type: text
+    label: Subtitle section
+  service[*].image: 
+    type: image
+    label: Image
+  service[*].title:
+    type: text
+    type: Text
+  service[*].hover:
+    type: text
+    type: Text
+  service[*].icon:
+    type: image
+    type: Image

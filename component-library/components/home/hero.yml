@@ -1,0 +1,67 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Home Hero Section
+  description: Home Hero Section
+  icon: 'cottage'
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: We love what we do every day
+  subtitle: Our salon is dedicated to bringing the top of line products mixed with expert technique to the nail salon industry. Offering many services allows us to be a one-stop destination for those looking for a complete rejuvenating experience.
+  image_left: /images/home/hero_banner.png
+  image_right: /images/home/blue_banner.png
+  button:
+    url: /
+    text: book now
+  hero:
+    - icon: 'i-mdi-instagram'
+      link: https://www.facebook.com
+      active: true
+
+    - icon: 'i-mdi-facebook'
+      link: https://www.facebook.com
+      active: true
+
+    - icon: 'i-mdi-pinterest'
+      link: https://www.facebook.com
+      active: true
+
+    - icon: 'i-mdi-twitter'
+      link: https://www.facebook.com
+      active: true
+
+    - icon: 'i-mdi-youtube'
+      link: https://www.facebook.com
+      active: true
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  title:
+    type: text
+    label: Title
+  subtitle:
+    type: text
+    label: Subtitle
+  image_left:
+    type: image
+    label: Image of hero
+  image_right:
+    type: image
+    label: Image of hero
+  button.url:
+    type: text
+    label: url
+  button.text:
+    type: text
+    label: url
+  hero[*].icon:
+    type: image
+    label: Image icon
+  hero[*].link:
+    type: text
+    label: Link of icon
