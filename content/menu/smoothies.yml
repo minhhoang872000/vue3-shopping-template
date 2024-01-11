@@ -10,21 +10,27 @@ content_blocks:
       - image: /images/menu_select1.svg
         image_alt: Image menu select 1
         label: Coffee
+        to: /menu/coffee
       - image: /images/menu_select2.svg
         image_alt: Image menu select 2
         label: Tea
+        to: /menu/tea
       - image: /images/menu_select3.svg
         image_alt: Image menu select 3
         label: Bubble milk tea
+        to: /menu/milktea
       - image: /images/menu_select4.svg
         image_alt: Image menu select 4
         label: Ice blended
+        to: /menu/blended
       - image: /images/menu_select5.svg
         image_alt: Image menu select 5
         label: Smoothies
+        to: /menu/smoothies
       - image: /images/menu_select6.svg
         image_alt: Image menu select 6
         label: Bakery
+        to: /menu/bakery
 
         
   - _block_name: section/product

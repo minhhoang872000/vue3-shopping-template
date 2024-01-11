@@ -10,85 +10,242 @@ content_blocks:
       - image: /images/menu_select1.svg
         image_alt: Image menu select 1
         label: Coffee
+        to: /menu/coffee
+        category: Coffee
+        product:
+          - image: /images/menu_sell1.png
+            image_alt: Image menu sell 1
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 22
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell2.png
+            image_alt: Image menu sell 2
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 30
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell3.png
+            image_alt: Image menu sell 3
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 48
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell4.png
+            image_alt: Image menu sell 4
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 24
+            button:
+              url: /
+              text: Order
       - image: /images/menu_select2.svg
         image_alt: Image menu select 2
         label: Tea
+        to: /menu/tea
+        category: Coffee
+        product:
+          - image: /images/menu_sell1.png
+            image_alt: Image menu sell 1
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 22
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell2.png
+            image_alt: Image menu sell 2
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 30
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell3.png
+            image_alt: Image menu sell 3
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 48
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell4.png
+            image_alt: Image menu sell 4
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 24
+            button:
+              url: /
+              text: Order
       - image: /images/menu_select3.svg
         image_alt: Image menu select 3
         label: Bubble milk tea
+        to: /menu/milktea
+        category: Coffee
+        product:
+          - image: /images/menu_sell1.png
+            image_alt: Image menu sell 1
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 22
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell2.png
+            image_alt: Image menu sell 2
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 30
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell3.png
+            image_alt: Image menu sell 3
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 48
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell4.png
+            image_alt: Image menu sell 4
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 24
+            button:
+              url: /
+              text: Order
       - image: /images/menu_select4.svg
         image_alt: Image menu select 4
         label: Ice blended
+        to: /menu/blended
+        category: Coffee
+        product:
+          - image: /images/menu_sell1.png
+            image_alt: Image menu sell 1
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 22
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell2.png
+            image_alt: Image menu sell 2
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 30
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell3.png
+            image_alt: Image menu sell 3
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 48
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell4.png
+            image_alt: Image menu sell 4
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 24
+            button:
+              url: /
+              text: Order
       - image: /images/menu_select5.svg
         image_alt: Image menu select 5
         label: Smoothies
+        to: /menu/smoothies
+        category: Coffee
+        product:
+          - image: /images/menu_sell1.png
+            image_alt: Image menu sell 1
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 22
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell2.png
+            image_alt: Image menu sell 2
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 30
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell3.png
+            image_alt: Image menu sell 3
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 48
+            button:
+              url: /
+              text: Order
+          - image: /images/menu_sell4.png
+            image_alt: Image menu sell 4
+            label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+            price: 24
+            button:
+              url: /
+              text: Order
       - image: /images/menu_select6.svg
         image_alt: Image menu select 6
         label: Bakery
+        to: /menu/bakery
+        
 
         
-  - _block_name: section/product
-    product:
-      - image: /images/menu_sell1.png
-        image_alt: Image menu sell 1
-        label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
-        price: 22
-        button:
-          url: /
-          text: Order
-      - image: /images/menu_sell2.png
-        image_alt: Image menu sell 2
-        label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
-        price: 30
-        button:
-          url: /
-          text: Order
-      - image: /images/menu_sell3.png
-        image_alt: Image menu sell 3
-        label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
-        price: 48
-        button:
-          url: /
-          text: Order
-      - image: /images/menu_sell4.png
-        image_alt: Image menu sell 4
-        label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
-        price: 24
-        button:
-          url: /
-          text: Order
-      - image: /images/menu_sell5.png
-        image_alt: Image menu sell 5
-        label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
-        price: 48
-        button:
-          url: /
-          text: Order
-      - image: /images/menu_sell6.png
-        image_alt: Image menu sell 6
-        label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
-        price: 48
-        button:
-          url: /
-          text: Order
-      - image: /images/menu_sell7.png
-        image_alt: Image menu sell 7
-        label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
-        price: 48
-        button:
-          url: /
-          text: Order
-      - image: /images/menu_sell8.png
-        image_alt: Image menu sell 8
-        label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
-        price: 48
-        button:
-          url: /
-          text: Order
-      - image: /images/menu_sell9.png
-        image_alt: Image menu sell 9
-        label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
-        price: 48
-        button:
-          url: /
-          text: Order
+  # - _block_name: section/product
+  #   product:
+  #     - image: /images/menu_sell1.png
+  #       image_alt: Image menu sell 1
+  #       label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+  #       price: 22
+  #       button:
+  #         url: /
+  #         text: Order
+  #     - image: /images/menu_sell2.png
+  #       image_alt: Image menu sell 2
+  #       label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+  #       price: 30
+  #       button:
+  #         url: /
+  #         text: Order
+  #     - image: /images/menu_sell3.png
+  #       image_alt: Image menu sell 3
+  #       label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+  #       price: 48
+  #       button:
+  #         url: /
+  #         text: Order
+  #     - image: /images/menu_sell4.png
+  #       image_alt: Image menu sell 4
+  #       label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+  #       price: 24
+  #       button:
+  #         url: /
+  #         text: Order
+  #     - image: /images/menu_sell5.png
+  #       image_alt: Image menu sell 5
+  #       label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+  #       price: 48
+  #       button:
+  #         url: /
+  #         text: Order
+  #     - image: /images/menu_sell6.png
+  #       image_alt: Image menu sell 6
+  #       label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+  #       price: 48
+  #       button:
+  #         url: /
+  #         text: Order
+  #     - image: /images/menu_sell7.png
+  #       image_alt: Image menu sell 7
+  #       label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+  #       price: 48
+  #       button:
+  #         url: /
+  #         text: Order
+  #     - image: /images/menu_sell8.png
+  #       image_alt: Image menu sell 8
+  #       label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+  #       price: 48
+  #       button:
+  #         url: /
+  #         text: Order
+  #     - image: /images/menu_sell9.png
+  #       image_alt: Image menu sell 9
+  #       label: Bubble milk tea</br> <span>Black Tea + black bubble</span>
+  #       price: 48
+  #       button:
+  #         url: /
+  #         text: Order

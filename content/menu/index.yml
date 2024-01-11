@@ -22,26 +22,32 @@ content_blocks:
         image_alt: Image menu select 1
         cate: coffee
         label: Coffee
+        to: /menu/blended
       - image: /images/menu_select2.svg
         image_alt: Image menu select 2
         cate: tea
         label: Tea
+        to: /menu/blended
       - image: /images/menu_select3.svg
         image_alt: Image menu select 3
         cate: milktea
         label: Bubble milk tea
+        to: /menu/blended
       - image: /images/menu_select4.svg
         image_alt: Image menu select 4
         cate: blended
         label: Ice blended
+        to: /menu/blended
       - image: /images/menu_select5.svg
         image_alt: Image menu select 5
         cate: smoothies
         label: Smoothies
+        to: /menu/blended
       - image: /images/menu_select6.svg
         image_alt: Image menu select 6
         cate: bakery
         label: Bakery
+        to: /menu/blended
     
   - _block_name: section/slider
     id: slider
