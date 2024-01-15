@@ -34,7 +34,12 @@
         v-if="now"
         class="grid md:grid-cols-2 lg:grid-cols-3 grid-flow-row-dense gap-[30px] mb-[60px]"
       >
-        <CateItem v-for="(subitem, index) in now" :key="index" :subitem="subitem" class=""/>
+        <CateItem
+          v-for="(subitem, index) in now"
+          :key="index"
+          :subitem="subitem"
+          class=""
+        />
       </div>
       <template v-if="hasPagination">
         <!-- <ul class="list-none">
@@ -46,29 +51,45 @@
                 <li  class="btnNext "><NuxtLink @click="handleNextButton" class="font-sans text-[12px] leading-[12px] -tracking-[0.12px] inline-block py-[8px] px-[10px] border border-effect">Next</NuxtLink></li>
             </div>
         </ul> -->
-          <PaginationControl :page-number="pageNumber"
+        <PaginationControl
+          :page-number="pageNumber"
           :number-of-page="numberOfPage"
           :url-prefix="urlPrefix"
-          />
-        </template>
+        />
+      </template>
     </div>
   </section>
 </template>
 <!-- :class="newProduct[0].category.toLowerCase() == route.params.slug ? 'border__item__text' : ''" -->
 <script lang="ts" setup>
+//   interface Props {
+//     dataBinding: any;
+//     block: any;
+//   }
+
+//   defineProps<Props>();
+//   const route = useRoute();
+//   console.log(route);
+//   const checkRouter = route.params.slug.slice(-1).toString();
 const route = useRoute();
 
-const block = await queryContent('/')
-.where({ _path: '/menu/detail' })
-.findOne();
+const pageNumber = Number(route.params.pagenumber);
+console.log(pageNumber);
 
+
+const block = await queryContent('/')
+  .where({ _path: '/menu/detail' })
+  .findOne();
 const urlPrefix = route.fullPath.substring(1);
-const pageSize = 6;
-const pageNumber = 1;
+if (isNaN(pageNumber)) {
+  navigateTo(`/${urlPrefix}`);
+}
+const pageSize = 3;
 let start = 0;
 let end = pageSize;
-const itemArr : any = reactive([]);
+const itemArr: any = [];
 let newblock = block.content_blocks[0];
+
 const newProduct = newblock.menu.filter((item: any) => {
   if (item.category.toLowerCase().trim() === route.params.category) {
     return item.product;
@@ -78,19 +99,46 @@ const newProduct = newblock.menu.filter((item: any) => {
 // const paginData = await queryContent('/').where({_path: '/menu/detail'}).
 
 const totalProduct = newProduct[0].product;
-console.log(totalProduct);
+
+// const chunkArray = ( array: Array<Object> ) => {
+//   const newItem = [];
+//   for(let i = 0; array.length; i += pageSize){
+//     const chunk = array.slice(i, i + pageSize);
+//     newItem.push(chunk)
+//   }
+//   return newItem;
+// }
+
+// const newArray = chunkArray(newProduct);
+// console.log(newArray);
+
 const changeSlug = totalProduct.map((item: any, index: number) => {
-  if(index >= start && index < end){
-    itemArr.push( {
+  // if(index >= start && index < end){
+  //   itemArr.push( {
+  //     ...item,
+  //     slug: route.fullPath + "/" + item.title.replaceAll(' ','-').concat("-","id", index + 1).toLowerCase()
+  //   })
+  // }
+  // start = (pageNumber - 1) * pageSize;
+  // end = pageNumber * pageSize; 
+  if (index >= start && index < end) {
+    return {
       ...item,
-      slug: route.fullPath + "/" + item.title.replaceAll(' ','-').concat("-","id", index + 1).toLowerCase()
-    })
+      slug:
+        route.fullPath +
+        '/' +
+        item.title
+          .replaceAll(' ', '-')
+          .concat('-', 'id', index + 1)
+          .toLowerCase(),
+    };
   }
-})
+});
 
 const numberOfPage: number = Math.ceil(totalProduct.length / pageSize);
 
-const now = computed(() => itemArr);
+const now = computed(() => changeSlug);
+
 // const handleNextButton = () => {
 //   pageNumber++;
 //   if(pageNumber > numberOfPage){
@@ -102,10 +150,17 @@ const now = computed(() => itemArr);
 // }
 
 const hasPagination = numberOfPage > 1;
+console.log(pageNumber);
+if (pageNumber && (pageNumber <= 1 || numberOfPage === 1)) {
+  console.log(123);
+  navigateTo(`/menu/bakery`) 
+}
 
 
+if (pageNumber > numberOfPage) {
+  navigateTo(`/${urlPrefix}/page/${numberOfPage}`)
+}
 // const currentPage = 1;
-
 </script>
 <style lang="scss" scoped>
 .border__item {
@@ -122,8 +177,8 @@ const hasPagination = numberOfPage > 1;
   border: 2px solid var(--color-anchor, --color-secondary);
   color: #f00;
 }
-.active{
-    background: #348D6D;
-    color: var(--color-main);
+.active {
+  background: #348d6d;
+  color: var(--color-main);
 }
 </style>
