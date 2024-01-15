@@ -63,7 +63,7 @@ const block = await queryContent('/')
 .findOne();
 
 const urlPrefix = route.fullPath.substring(1);
-const pageSize = 6;
+const pageSize = block.content_blocks[0].pagination.size;
 const pageNumber = 1;
 let start = 0;
 let end = pageSize;

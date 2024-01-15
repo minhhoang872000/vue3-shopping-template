@@ -72,43 +72,51 @@
 //   console.log(route);
 //   const checkRouter = route.params.slug.slice(-1).toString();
 const route = useRoute();
-
-const pageNumber = Number(route.params.pagenumber);
-console.log(pageNumber);
-
-
+console.log(route);
 const block = await queryContent('/')
   .where({ _path: '/menu/detail' })
   .findOne();
+console.log(block);
+const pageNumber = Number(route?.params?.pagenumber);
+// console.log(pageNumber);
+
+
+
 const urlPrefix = route.fullPath.substring(1);
+console.log(urlPrefix);
 if (isNaN(pageNumber)) {
   navigateTo(`/${urlPrefix}`);
 }
 const pageSize = 3;
 let start = 0;
 let end = pageSize;
-const itemArr: any = [];
-let newblock = block.content_blocks[0];
+// const itemArr: any = [];
+let newblock = block?.content_blocks[0];
 
 const newProduct = newblock.menu.filter((item: any) => {
   if (item.category.toLowerCase().trim() === route.params.category) {
-    return item.product;
+    return item?.product;
   }
 });
 
+const totalProduct = newProduct[0]?.product;
+const numberOfPage: number = Math.ceil(totalProduct.length / pageSize);
 // const paginData = await queryContent('/').where({_path: '/menu/detail'}).
 
-const totalProduct = newProduct[0].product;
+// const newItem = [];
+let resultArray: any = [];
+for (let i = 0; i < totalProduct.length; i += pageSize) {
+    let chunk = totalProduct.slice(i, i + pageSize);
+    resultArray.push(chunk);
+}
 
-// const chunkArray = ( array: Array<Object> ) => {
-//   const newItem = [];
-//   for(let i = 0; array.length; i += pageSize){
-//     const chunk = array.slice(i, i + pageSize);
-//     newItem.push(chunk)
-//   }
-//   return newItem;
+// const chunkArray = (array : [], number: number) => {
+//     let count = 0;
+//     for(let i = 0; i <= array.length; i++){
+//       count++;
+      
+//     }
 // }
-
 // const newArray = chunkArray(newProduct);
 // console.log(newArray);
 
@@ -121,7 +129,7 @@ const changeSlug = totalProduct.map((item: any, index: number) => {
   // }
   // start = (pageNumber - 1) * pageSize;
   // end = pageNumber * pageSize; 
-  if (index >= start && index < end) {
+  // if (index >= start && index < end) {
     return {
       ...item,
       slug:
@@ -132,12 +140,11 @@ const changeSlug = totalProduct.map((item: any, index: number) => {
           .concat('-', 'id', index + 1)
           .toLowerCase(),
     };
-  }
+  // }
 });
+console.log(changeSlug);
 
-const numberOfPage: number = Math.ceil(totalProduct.length / pageSize);
-
-const now = computed(() => changeSlug);
+const now = computed(() => resultArray[pageNumber - 1]);
 
 // const handleNextButton = () => {
 //   pageNumber++;
@@ -149,11 +156,10 @@ const now = computed(() => changeSlug);
 //   changeSlug();
 // }
 
-const hasPagination = numberOfPage > 1;
-console.log(pageNumber);
+const hasPagination = numberOfPage > 1; 
+// console.log(pageNumber);
 if (pageNumber && (pageNumber <= 1 || numberOfPage === 1)) {
-  console.log(123);
-  navigateTo(`/menu/bakery`) 
+  navigateTo(`/${block._path}`)
 }
 
 

@@ -6,6 +6,8 @@ content_blocks:
     subtitle: Select style of menu
     background: /images/bg_menulist.png
     deco: /images/star_title.png
+    pagination:
+      size: 3
     menu:
       - image: /images/menu_select1.svg
         image_alt: Image menu select 1

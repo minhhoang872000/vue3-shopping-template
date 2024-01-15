@@ -36,10 +36,10 @@ interface Props {
 const props = defineProps<Props>()
 
 const { pageNumber, numberOfPage, urlPrefix } = props;
-console.log(pageNumber, numberOfPage, urlPrefix );
+
 const hasNextPage = (pageNumber + 1 <= numberOfPage);
 const hasPrePage = (pageNumber - 1 >= 1);
-console.log(pageNumber)
+
 
 const changeUrl = (index: number) => {
   let newUrlPrefix = '';
